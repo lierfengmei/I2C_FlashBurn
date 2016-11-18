@@ -1,0 +1,38 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="Z:\DSP_Programs\my_i2cFLASHBURN\I2C_FLASHBURN\"
+ProjectType=Executable
+CPUFamily=TMS320C55XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="csl5509x.lib"
+Source="flash_data.h"
+Source="I2C_FLASHBURN_main.c"
+Source="rts55x.lib"
+Source="standard.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -pdsw225 -fr"$(Proj_dir)\Debug" -d"_DEBUG" -d"CHIP_5509" -ml
+
+["Compiler" Settings: "Release"]
+Options=-pdsw225 -o2 -fr"$(Proj_dir)\Release"
+
+["Linker" Settings: "Debug"]
+Options=-c -heap800 -m".\Debug\I2C_FLASHBURN.map" -o".\Debug\I2C_FLASHBURN.out" -stack800 -sysstack800 -w -x
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\I2C_FLASHBURN.map" -o".\Release\I2C_FLASHBURN.out" -w -x
+
+["flash_data.h" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["flash_data.h" Settings: "Release"]
+ExcludeFromBuild=true
+

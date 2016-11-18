@@ -1,0 +1,5 @@
+-z -c -heap800 -m"./Debug/I2C_FLASHBURN.map" -o"./Debug/I2C_FLASHBURN.out" -stack800 -sysstack800 -w -x -i"C:/CCStudio_v3.3PLA/C5500/csl/lib" -i"C:/CCStudio_v3.3PLA/C5500/xdais/lib" -i"C:/CCStudio_v3.3PLA/bios_5_33_05/packages/ti/bios/lib" -i"C:/CCStudio_v3.3PLA/bios_5_33_05/packages/ti/rtdx/lib/c5500" -i"C:/CCStudio_v3.3PLA/C5500/cgtools/lib"
+"Z:\DSP_Programs\my_i2cFLASHBURN\I2C_FLASHBURN\Debug\I2C_FLASHBURN_main.obj"
+"Z:\DSP_Programs\my_i2cFLASHBURN\I2C_FLASHBURN\csl5509x.lib"
+"Z:\DSP_Programs\my_i2cFLASHBURN\I2C_FLASHBURN\rts55x.lib"
+"Z:\DSP_Programs\my_i2cFLASHBURN\I2C_FLASHBURN\standard.cmd"

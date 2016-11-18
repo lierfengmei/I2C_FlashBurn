@@ -1,0 +1,8 @@
+-------------------------  I2C_FLASHBURN.pjt - Debug  -------------------------
+[I2C_FLASHBURN_main.c] "C:\CCStudio_v3.3PLA\C5500\cgtools\bin\cl55" -g -pdsw225 -fr"Z:/DSP_Programs/my_i2cFLASHBURN/I2C_FLASHBURN/Debug" -d"_DEBUG" -d"CHIP_5509" -ml -@"Debug.lkf" "I2C_FLASHBURN_main.c"
+
+[Linking...] "C:\CCStudio_v3.3PLA\C5500\cgtools\bin\cl55" -@"Debug.lkf"
+<Linking>
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.
